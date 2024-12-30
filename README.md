@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Node.js where a server fails to start because the specified port is already in use.  The `bug.js` file contains the problematic code, while `bugSolution.js` offers a solution using a `try...catch` block and `server.on('error')` to gracefully handle the error.
